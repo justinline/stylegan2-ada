@@ -1,0 +1,6 @@
+moviepy
+opensimplex
+Pillow
+requests
+scipy
+tensorflow-gpu>=1,<2
