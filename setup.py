@@ -4,7 +4,7 @@ import pkg_resources
 from setuptools import setup, find_packages
 
 setup(
-    name="stylegan-ada-hidden-vortices",
+    name="hiddenvortices",
     py_modules=[
         "dnnlib",
         "dnnlib.tflib",
