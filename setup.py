@@ -1,5 +1,3 @@
-
-   
 import os
 
 import pkg_resources
@@ -7,7 +5,22 @@ from setuptools import setup, find_packages
 
 setup(
     name="stylegan-ada-hidden-vortices",
-    py_modules=["dnnlib", "ffhq_dataset", "metrics", "training", "utils"],
+    py_modules=[
+        "dnnlib",
+        "ffhq_dataset",
+        "metrics",
+        "training",
+        "utils",
+        "generate",
+        "aydao_flesh_digressions",
+        "blend_models",
+        "calc_metrics",
+        "dataset_tool",
+        "grid_vid",
+        "projector",
+        "style_mixing",
+        "train"
+    ],
     version="1.0",
     description="",
     author="Luke Nickel & Justin Focus",
@@ -19,5 +32,5 @@ setup(
         )
     ],
     include_package_data=True,
-    extras_require={'dev': ['pytest']},
+    extras_require={"dev": ["pytest"]},
 )
