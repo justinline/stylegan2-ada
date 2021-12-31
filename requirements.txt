@@ -1,6 +1,8 @@
 moviepy
 opensimplex
 Pillow
+pygame
+pyopengl
 requests
 scipy
 tensorflow-gpu>=1,<2
