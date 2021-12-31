@@ -1,7 +1,6 @@
 moviepy
 numpy
 opensimplex
-pickle
 Pillow
 pygame
 pyopengl
