@@ -1,4 +1,3 @@
-dnnlib
 moviepy
 numpy
 opensimplex

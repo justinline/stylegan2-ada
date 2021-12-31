@@ -7,6 +7,7 @@ setup(
     name="stylegan-ada-hidden-vortices",
     py_modules=[
         "dnnlib",
+        "dnnlib.tflib",
         "ffhq_dataset",
         "metrics",
         "training",
@@ -19,7 +20,7 @@ setup(
         "grid_vid",
         "projector",
         "style_mixing",
-        "train"
+        "train",
     ],
     version="1.0",
     description="",
