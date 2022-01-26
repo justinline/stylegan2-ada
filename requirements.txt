@@ -1,11 +1,9 @@
 moviepy
 numpy
 opensimplex
-pickle
 Pillow
 pygame
 pyopengl
 requests
-tensorflow>=1,<2
-tensorflow-gpu>=1,<2
+tensorflow
 scipy
