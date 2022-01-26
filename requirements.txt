@@ -5,5 +5,4 @@ Pillow
 pygame
 pyopengl
 requests
-tensorflow
 scipy
